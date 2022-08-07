@@ -1,0 +1,131 @@
+*{
+    padding: 0; 
+    margin: 0; 
+}
+
+/* Registration form  start here */
+section{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.form-cantainer{
+    min-height: 60vh;
+    width: 400px; 
+    display: flex;
+    align-items: center; 
+  
+    justify-content: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    padding: 20px; 
+    /* box-shadow:  0 9px 50px rgb(0 0 0 / 48%); */
+    border: 1px solid black;
+}
+.form-cantainer form .box{
+    width: 85%; 
+    margin: 1rem 0; 
+    
+    padding: 0.5rem 1.4rem; 
+    border: 1px solid black; 
+}
+
+.form-cantainer form{
+    text-align: center; 
+}
+
+.form-cantainer form .btn{
+    width: 100%; 
+    background-color:rgb(67, 46, 205);
+
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+.form-cantainer form .btn:hover{
+    background-color:rgb(83, 64, 209);
+}
+
+.form-cantainer form h1{
+    font-size: 1.5rem; 
+    text-transform: uppercase; 
+    margin-bottom: 1.5rem; 
+}
+
+.form-cantainer form p{
+    margin-top: 1.5rem; 
+    font-size: 1.2rem;  
+}
+
+.form-cantainer form p a{
+    text-decoration: none; 
+    color: green;
+}
+
+.form-cantainer form p a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+/* media quearys of Registration */
+
+@media only screen and (max-width:470px){
+    .form-cantainer{
+        width: 370px;
+    }
+}
+@media only screen and (max-width:410px){
+    .form-cantainer{
+        width: 340px; 
+    }
+}
+@media only screen and (max-width:417px){
+    .form-cantainer{
+        width: 330px; 
+    }
+}
+
+@media only screen and (max-width:400px){
+    .form-cantainer{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .form-cantainer{
+        width: 255px;
+    }
+}
+@media only screen and (max-width:300px){
+    .form-cantainer{
+        width: 230px; 
+    }
+    .form-cantainer form .box{
+        width: 80%; 
+    }
+}
+
+@media only screen and (max-width:280px){
+    .form-cantainer{
+        width: 220px;
+    }
+    .form-cantainer form .box{
+        width: 77%; 
+    }
+}
+
+@media only screen and (max-width:240px){
+    .form-cantainer{
+        width: 175px; 
+    }
+    .form-cantainer form .box{
+        width: 75%; 
+    }
+}
+
+/* Registration form End here */
